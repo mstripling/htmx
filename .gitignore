@@ -1,1 +1,3 @@
+# ignore cache dirs
+__pycache__/
 env/
