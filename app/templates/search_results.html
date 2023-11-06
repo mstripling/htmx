@@ -1,0 +1,10 @@
+<div id="results" hx-post="/search">
+    <button type="submit">Search Again</button>
+
+    <h2>Search Results</h2>
+    <ul>
+        {% for recipe in recipes %}
+            <li><a href="{{ recipe.link }}">{{ recipe.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
